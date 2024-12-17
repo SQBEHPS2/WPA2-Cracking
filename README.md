@@ -1,2 +1,129 @@
-# WPA2-Cracking
-Tool Description  This script is a Wi-Fi password cracking automation tool designed to work with aircrack-ng for WPA/WPA2 handshake files. It includes multiple functionalities to generate passwords, attempt brute-force attacks, and log cracked credentials to your devices.
+
+# **Wi-Fi Password Cracking Tool**
+
+This tool automates Wi-Fi WPA/WPA2 password cracking using `aircrack-ng` and supports password generation, brute-force attacks, and logging cracked credentials to your devices.
+
+---
+
+## **Features**
+
+1. **Multiple Password Generation Modes**
+   - **Password List File**: Use an existing password list to attempt cracking.
+   - **Brute-force 8-Digit Numbers**: Generate sequential, descending, or random numeric combinations.
+   - **Bangladeshi Mobile Numbers**: Check combinations for specific mobile number prefixes.
+   - **Name + Random Characters**: Generate passwords based on a base name and random characters.
+
+2. **Aircrack-ng Automation**
+   - Automates the execution of `aircrack-ng` with generated passwords.
+   - Detects successful cracks and displays the Wi-Fi password.
+
+3. **Password Logging**
+   - Saves cracked passwords to a predefined location: `Found_handshake/`.
+   - Submits passwords to a Notion database if they are not already recorded.
+
+4. **Session Lock Mechanism**
+   - Prevents multiple instances of the script from running simultaneously using a lock file.
+
+5. **User-Friendly Interface**
+   - ASCII banners, success messages, and interactive menus make the tool easy to use.
+
+6. **Internet Connectivity Check**
+   - Ensures an active internet connection before execution.
+
+---
+
+## **Download**
+
+Click [here](https://example.com) to download the latest version of the tool.
+
+---
+
+## **Dependencies**
+
+### **Required Tools**
+- `aircrack-ng` (must be installed and available in the system PATH). You can install from [here](https://github.com/SQBEHPS2/termux-Aircrack-ng)
+
+### **Python Libraries**
+Install the required libraries using `pip`:
+
+```bash
+pip install requests colorama
+```
+
+---
+
+## **Usage**
+
+1. **Run the Script**  
+   Run the script in a Python-compatible environment:
+   ```bash
+   python wpa2-cracking.py
+   ```
+
+2. **Choose an Option**  
+   On startup, you’ll see the main menu:
+   ```
+   Choose an option:
+   1: Use a password list file
+   2: Brute-force 8-digit numbers
+   3: Check Bangladeshi mobile numbers
+   4: Name + Letter characters generation
+   5: About
+   ```
+
+3. **Option Breakdown**  
+   - **Option 1**: Provide a path to a password list file.
+   - **Option 2**: Generate 8-digit numeric passwords (ascending, descending, or random).
+   - **Option 3**: Generate mobile number combinations for Bangladeshi prefixes.
+   - **Option 4**: Generate passwords based on a base name and random letters/characters.
+
+4. **Monitor Progress**  
+   Once started, the tool will attempt to crack the Wi-Fi password using `aircrack-ng`.
+
+5. **Results**  
+   - Successful passwords are displayed with a success banner.
+   - Passwords are saved in the `Found_handshake/` folder.
+
+
+## **Important Notes**
+
+- **Legal Disclaimer**: This tool is intended for educational purposes and authorized penetration testing only. Unauthorized use to crack Wi-Fi networks is illegal.
+
+
+---
+
+## **Screenshots**
+
+- Success Banner Example:
+```
+══════════════════════════════════════════════════════════════════════════════
+                       ✨ 🎆 PASSWORD SUCCESSFULLY CRACKED! 🎆 ✨
+══════════════════════════════════════════════════════════════════════════════
+
+                      🌟         🔐 PASSWORD: 12345678 🔐         🌟
+
+══════════════════════════════════════════════════════════════════════════════
+
+          💾 Your password has been saved at: Found_handshake/example.txt 💾
+
+══════════════════════════════════════════════════════════════════════════════
+
+                  🎉 🎈 CONGRATULATIONS ON YOUR SUCCESS! 🎈 🎉
+══════════════════════════════════════════════════════════════════════════════
+```
+
+---
+
+## **Credits**
+
+- Developed by: **SQB EHPS**
+- **YouTube**: [@SQBEHPS](https://www.youtube.com/@SQBEHPS)  
+- **GitHub**: [github.com/SQBEHPS](https://github.com/SQBEHPS)  
+- **Second GitHub**: [github.com/SQBEHPS2](https://github.com/SQBEHPS2)  
+- **Facebook**: [SQB EHPS Service](https://facebook.com)
+
+---
+
+## **License**
+
+This project is licensed under the MIT License. Use responsibly.
