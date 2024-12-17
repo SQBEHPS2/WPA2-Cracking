@@ -48,7 +48,7 @@ pip install requests colorama
 
 ---
 
-## **Usage**
+## **Termux Usage**
 
 1. **Run the Script**  
    Run the script in a Python-compatible environment:
