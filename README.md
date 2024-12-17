@@ -19,22 +19,18 @@ This tool automates Wi-Fi WPA/WPA2 password cracking using `aircrack-ng` and sup
 
 3. **Password Logging**
    - Saves cracked passwords to a predefined location: `Found_handshake/`.
-   - Submits passwords to a Notion database if they are not already recorded.
 
-4. **Session Lock Mechanism**
-   - Prevents multiple instances of the script from running simultaneously using a lock file.
-
-5. **User-Friendly Interface**
+4. **User-Friendly Interface**
    - ASCII banners, success messages, and interactive menus make the tool easy to use.
 
-6. **Internet Connectivity Check**
+5. **Internet Connectivity Check**
    - Ensures an active internet connection before execution.
 
 ---
 
 ## **Download**
 
-Click [here](https://example.com) to download the latest version of the tool.
+Click [here](https://items.kesug.com/Product/product-24) to download the latest version of the tool.(2.0 Version)
 
 ---
 
