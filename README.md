@@ -50,7 +50,21 @@ pip install requests colorama
 
 ## **Termux Usage**
 
-1. **Run the Script**  
+1. **Install to Your Devices**
+     ```bash
+     git clone https://github.com/SQBEHPS2/WPA2-Cracking
+     ```
+   **Copy Handshake**
+     You need to copy of handshake pcap or hccapx file to tools folder.
+     ```bash
+     cp <Address of Handshake file> ~/WPA2-Cracking/
+     ```
+   **Use Password Dictionary**
+     If you check password with your dictionary password. Make sure copy dictionary to tools folder. Copy dictionary with run the command.
+     ```bash
+     cp <Address of Dictionary> ~/WPA2-Cracking/
+     ```
+ **Run the Script**  
    Run the script in a Python-compatible environment:
    ```bash
    python wpa2-cracking.py
