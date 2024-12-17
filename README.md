@@ -64,11 +64,11 @@ pip install requests colorama
      ```bash
      cp <Address of Dictionary> ~/WPA2-Cracking/
      ```
- **Run the Script**  
-   Run the script in a Python-compatible environment:
-   ```bash
-   python wpa2-cracking.py
-   ```
+  **Run the Script**  
+    Run the script in a Python-compatible environment:
+    ```bash
+    python wpa2-cracking.py
+    ```
 
 2. **Choose an Option**  
    On startup, you’ll see the main menu:
