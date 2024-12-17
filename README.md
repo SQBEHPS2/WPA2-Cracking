@@ -66,6 +66,7 @@ pip install requests colorama
      ```
   **Run the Script**  
     Run the script in a Python-compatible environment:
+
     ```bash
     python wpa2-cracking.py
     ```
