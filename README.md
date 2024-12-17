@@ -54,12 +54,12 @@ pip install requests colorama
      ```bash
      git clone https://github.com/SQBEHPS2/WPA2-Cracking
      ```
-   **Copy Handshake**
+   **Copy Handshake:**
      You need to copy of handshake pcap or hccapx file to tools folder.
      ```bash
      cp <Address of Handshake file> ~/WPA2-Cracking/
      ```
-   **Use Password Dictionary**
+   **Use Password Dictionary:**
      If you check password with your dictionary password. Make sure copy dictionary to tools folder. Copy dictionary with run the command.
      ```bash
      cp <Address of Dictionary> ~/WPA2-Cracking/
